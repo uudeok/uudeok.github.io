@@ -94,8 +94,7 @@ var App = function App() {
         maxTime: "21:00",
         filterTime: filterTime,
         placeholder: "\uC2DC\uAC04 \uC120\uD0DD",
-        excludeTimes: [new Date(date.setHours(12, 0, 0)), new Date(date.setHours(12, 30, 0)), new Date(date.setHours(13, 0, 0)), new Date(2024, 2, 9, 15, 0, 0)],
-        dayCaption: dayInEnglish
+        excludeTimes: [new Date(date.setHours(12, 0, 0)), new Date(date.setHours(12, 30, 0)), new Date(date.setHours(13, 0, 0)), new Date(2024, 2, 9, 15, 0, 0)]
       })
     })]
   });
